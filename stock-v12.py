@@ -61,7 +61,8 @@ DEFAULT_HEADERS = {
     )
 }
 
-st.set_page_config(page_title="股票分析師", layout="wide", initial_sidebar_state="expanded")
+#st.set_page_config(page_title="股票分析師", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="股票分析師", layout="centered", initial_sidebar_state="expanded")
 st.title("股票分析師")
 st.caption("量化評分 + 專業研究報告")
 
