@@ -2085,7 +2085,7 @@ if st.session_state.confirmed_stock:
   </div>
 </div>"""
 
-    k_html  = score_card_html("K線技術", score_table["K線"],  "15%", score_delta_str(score_table["K線"]))
+    k_html  = score_card_html("K線", score_table["K線"],  "15%", score_delta_str(score_table["K線"]))
     v_html  = score_card_html("成交量",  score_table["成交量"], "10%", score_delta_str(score_table["成交量"]))
     f_html  = score_card_html("基本面",  score_table["基本面"], "60%", score_delta_str(score_table["基本面"]))
     vd_html = verdict_card_html(verdict)
